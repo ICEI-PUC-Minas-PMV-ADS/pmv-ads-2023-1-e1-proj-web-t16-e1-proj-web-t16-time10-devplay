@@ -3,19 +3,23 @@
 `CURSO`
 Analise e Desenvolvimento de Sistemas
 
+`DICIPLINA`
 Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End
 
+`SEMESTRE`
 Primeiro Semestre 
+
+`CONTEXTO`
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Arthur 
-* Francianciane 
+* Arthur Vieira de Souza Clemente Moraes
+* Francianciane Correa da Silva 
 * Isabella Perdigão Napier
 * Júlia Perdigão de Melo Couto 
-* Marcelo
-* Pedro 
+* Marcelo Oliveira de Brito 
+* Pedro Melo Cavalcanti Filho 
 
 ## Orientador
 

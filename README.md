@@ -1,5 +1,6 @@
 # DEVPLAY
 
+`CURSO`
 Analise e Desenvolvimento de Sistemas
 
 Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End

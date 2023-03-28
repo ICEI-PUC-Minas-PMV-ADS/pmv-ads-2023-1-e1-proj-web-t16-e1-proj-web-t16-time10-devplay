@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Arthur Vieira de Souza Clemente Moraes
-* Francianciane Correa da Silva 
+* Franciane Correa da Silva 
 * Isabella Perdigão Napier
 * Júlia Perdigão de Melo Couto 
 * Marcelo Oliveira de Brito 

@@ -1,46 +1,35 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A precariedade do mercado de trabalho no Brasil é um problema real. De acordo com relatório publicado pela Organização Internacional do Trabalho (OIT), "Perspectivas Sociais e de Emprego no Mundo - Tendências 2023", a taxa de desemprego no Brasil esperada para esse ano é próxima de 9%. Mesmo para aqueles que estão empregados as perspectivas não são promissoras. De acordo com a Pesquisa Nacional por Amostra de Domicílios Contínua (Pnad contínua) do Instituto Brasileiro de Geografia e Estatística (IBGE), a remuneração mensal média do trabalhador brasileiro no final de 2022 era de R$2.787,00, o equivalente a apenas 2,3 salários-mínimos. 
+
+Por outro lado, em uma tendência bem distinta, está o setor de tecnologia de informação que apresenta carreiras promissoras, com boas remunerações e boas condições de trabalho. Isso é devido ao que ficou conhecido como “apagão da área de tecnologia”, em que existe uma demanda muito grande por profissionais qualificados na área, em contrapartida a uma formação insuficiente de novas pessoas. Isso pode ser evidenciado a partir da pesquisa da Associação Brasileira das Empresas de Tecnologia da Informação e Comunicação (Brasscom) que contatou que até 2024 o Brasil terá uma demanda de 70 mil profissionais por ano no setor de software e serviço, enquanto se formam anualmente apenas 46 mil.  
+
+Todo esse contexto aumenta a atratividade do setor de tecnologia. Dessa forma, existe um contingente grande de pessoas sem experiência ou qualificação que resolvem aprender sobre o tema com o interesse de se profissionalizar. Em especial, pois a porta de entrada para as carreiras de TI é menor, sem necessariamente exigir certificações ou curso superior. Assim, o que se observa, é uma demanda significativa por cursos de qualidade. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A grande dificuldade dessas pessoas que buscam ingressar no mercado de TI, mesmo sem ter experiência, é que, em geral, elas não têm conhecimentos suficientes para sequer saber por onde começar. É comum que não se tenha clareza de quais conhecimentos e habilidades são necessários e assim, não conseguem definir um plano de estudos eficiente. Para agravar a situação, elas se deparam com uma gama muito extensa de conteúdos, tanto pagos quanto gratuitos, que não estão organizados de forma clara.  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+As consequências desse cenário são diversas, recorrentemente essas pessoas têm um gasto de tempo significativo para descobrir qual é o melhor plano de estudo e por vezes não conseguem, sendo que esse plano pode não ser correspondente às necessidades do mercado. Dessa forma, muitos não conseguem ser contratados ou desprendem muito mais tempo e esforço para consegui-lo. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma plataforma de transmissão de conteúdo educativo sobre tecnologia que sirva como meio de estudos principal para pessoas que querem ingressar na carreira. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, delimita-se: 
+
+Selecionar, curar e disponibilizar uma variedade de conteúdos suficiente para atender a demanda do mercado; 
+
+Apresentar o conteúdo de maneira otimizada, em linhas de conhecimento que avançam progressivamente em complexidade, para orientar o progresso de estudo do usuário; 
+
+Organizar o conteúdo disponível em grupos temáticos para facilitar a busca por conteúdos específicos. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A internet atualmente oferece uma ampla variedade de conteúdos relacionados ao aprendizado de tecnologia, mas muitas vezes esses materiais estão fragmentados em diferentes plataformas. É notável a falta de uma plataforma centralizada para educação em formato streaming, que se tornou tão popular no entretenimento e atende às necessidades dos usuários em um só lugar. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Através desta plataforma, busca-se contribuir para que aqueles que decidiram ingressar o mercado de trabalho de TI possam ter um início ou transição de carreira mais rápida e bem-sucedida. A interface e usabilidade serão pensadas de forma a serem intuitivas e de fácil utilização, seguindo o padrão consagrado pelas plataformas de streaming já existentes. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+É evidente que a demanda por soluções que facilitem e orientem o aprendizado de conteúdos relativos à tecnologia seja grande, principalmente por ser uma área que exige constante atualização. Este projeto, no entanto, visa atender especificamente os iniciantes na área. Como descrito nos tópicos acima, são pessoas que estão insatisfeitas com sua posição no mercado de trabalho e desejam migrar de área ou que estão iniciando sua carreira e que acreditam que a área de TI seja promissora. Assim, é um público que tem dificuldade para elaborar um plano de estudos e não consegue defini-lo da melhor maneira. Além disso, precisa de mais esforço para selecionar os conteúdos mais adequados e dessa forma otimizar sua trajetória de aprendizagem. 

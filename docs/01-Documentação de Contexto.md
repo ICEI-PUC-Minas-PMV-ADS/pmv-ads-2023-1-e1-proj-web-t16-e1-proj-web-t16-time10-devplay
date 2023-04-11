@@ -16,12 +16,9 @@ As consequências desse cenário são diversas, recorrentemente essas pessoas t�
 O objetivo geral deste trabalho é a criação de uma plataforma de transmissão de conteúdo educativo sobre tecnologia que sirva como meio de estudos principal para pessoas que querem ingressar na carreira. 
 
 Como objetivos específicos, delimita-se: 
-
-Selecionar, curar e disponibilizar uma variedade de conteúdos suficiente para atender a demanda do mercado; 
-
-Apresentar o conteúdo de maneira otimizada, em linhas de conhecimento que avançam progressivamente em complexidade, para orientar o progresso de estudo do usuário; 
-
-Organizar o conteúdo disponível em grupos temáticos para facilitar a busca por conteúdos específicos. 
+• Selecionar, curar e disponibilizar uma variedade de conteúdos suficiente para atender a demanda do mercado; 
+• Apresentar o conteúdo de maneira otimizada, em linhas de conhecimento que avançam progressivamente em complexidade, para orientar o progresso de estudo do usuário; 
+• Organizar o conteúdo disponível em grupos temáticos para facilitar a busca por conteúdos específicos. 
 
 ## Justificativa
 

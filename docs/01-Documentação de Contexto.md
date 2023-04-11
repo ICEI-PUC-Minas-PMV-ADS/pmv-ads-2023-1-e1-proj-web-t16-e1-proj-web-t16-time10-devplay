@@ -17,7 +17,9 @@ O objetivo geral deste trabalho é a criação de uma plataforma de transmissão
 
 Como objetivos específicos, delimita-se: 
 • Selecionar, curar e disponibilizar uma variedade de conteúdos suficiente para atender a demanda do mercado; 
-• Apresentar o conteúdo de maneira otimizada, em linhas de conhecimento que avançam progressivamente em complexidade, para orientar o progresso de estudo do usuário; 
+
+• Apresentar o conteúdo de maneira otimizada, em linhas de conhecimento que avançam progressivamente em complexidade, para orientar o progresso de estudo do usuário;
+ 
 • Organizar o conteúdo disponível em grupos temáticos para facilitar a busca por conteúdos específicos. 
 
 ## Justificativa

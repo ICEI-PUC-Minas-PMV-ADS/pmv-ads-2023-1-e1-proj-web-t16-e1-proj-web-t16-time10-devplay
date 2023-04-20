@@ -34,7 +34,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
-|ID    | Descrição do Requisito  | Prioridade |
+|  ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-1.0 | Ao acessar a plataforma exibir a logo DEVPLAY até que o carregamento das informações iniciais e validação do usuário esteja concluída.| BAIXA | 
 |RF-1.1 | Deve permitir navegação pelas setas.| MÉDIA |

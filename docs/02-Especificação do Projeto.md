@@ -26,20 +26,35 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Eu como Carlos Gomes| Desejo remover um conteúdo da minha lista de favoritos| Para poder ter apenas os conteúdos que me interessam e que posso ter adicionado por impulso|
 |Eu como Carlos Gomes| Desejo buscar um conteúdo com o tema de um framework em alta no momento"| Para acessar um tema específico e criar meu primeiro site e iniciar meu portifólio e ter mais chance de conseguir um estágio |
 
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir. 
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-1.0 | Ao acessar a plataforma exibir a logo DEVPLAY até que o carregamento das informações iniciais e validação do usuário esteja concluída.| BAIXA | 
+|RF-1.1 | Deve permitir navegação pelas setas.| MÉDIA |
+|RF-2.0 | Caso o usuário não tenha se autenticado ou esteja com login expirado apresentar um formulário com campo de login e senha. Exibir botões de confirmação, esqueci a senha e cadastro.| BAIXA |
+|RF-2.1 | Na Página de Criação de Conta exibir um campo de texto com Nome, Email e senha. E um botão para confirmar o cadastro. | BAIXA |
+|RF-3.0 | Em Todas as Página exibir uma barra lateral estática navegável por click para acessar as páginas Busca, Favoritos, Continuar Assistindo e Perfil.| MÉDIA |
+|RF-3.1 | Na Página Inicial exibir o conteúdo em formato de trilhos navegáveis com itens. | ALTA |
+|RF-3.2 | Cada item do trilho deve ser composto por N itens, até um total de 30 itens.| BAIXA |
+|RF-3.3 | Cada item do trilho deve ser clicável e navegável para o conteúdo.| ALTA |
+|RF-3.4 | Os trilhos podem ser de diversos tipos. | BAIXA |
+|RF-3.5 | O trilho do poster deve exibir uma imagem que representa graficamente o conteúdo disponível.| ALTA |
+|RF-3.6 | O trilho do tipo vídeo deve ter sua thumbnail devidamente carregada. | MÉDIA |
+|RF-3.7 | Cada trilho será classificado por temas e/ou roadmap de carreira e possuir um título acima.| ALTA |
+|RF-3.8 | Cada item selecionado deve abrir um painel com informações mais detalhadas e botão de acesso ao conteúdo. | MÉDIA |
+|RF-3.9 | O painel deve permitir que o usuário adicione e remova quaisquer conteúdos aos favoritos. | BAIXA |
+|RF-3.10 | Na página inicial exibir um trilho de conteúdo Recomendado que conteúdo os melhores títulos e vídeos do momento.| MÉDIA |
+|RF-3.11 | Na página inicial exibir um trilho de Novidades com os conteúdos mais recentes.| MÉDIA |
+|RF-4.0 | Na Página de Busca possuir um campo de texto que permita ao usuário digitar um texto. | ALTA |
+|RF-4.1 | Exibir como resultado da busca roadmaps de carreira e títulos exibidos em formato de grid com itens navegáveis.| ALTA |
+|RF-5.0 | Na página de Continuar Assistindo exibir os conteúdos que o usuário não terminou de assistir em formato de grid navegáveis.| BAIXA |
 
 
 ### Requisitos não Funcionais

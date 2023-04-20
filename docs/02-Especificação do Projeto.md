@@ -61,7 +61,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF1.0 | O código fonte deve ser publicado estar acessível publicamente no Github.| ALTA | 
+|RNF-1.0 | O código fonte deve ser publicado estar acessível publicamente no Github.| ALTA | 
 |RNF-1.1 | Os arquivos estáticos devem estar disponíveis em CDN  | | 
 |RNF-2.0 | Deve ser responsiva no qual deve se ajustar a resolução utilizada pela pessoa usuário. Deve-se utilizar a regra mobile first.| BAIXA |
 |RNF-2.1 | O site deve ser acessível para deficientes visuais (mecanismos de navegação e apresentação do site).|  |
@@ -79,6 +79,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/07/2023.|
 |RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end.|
 |RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.|
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 

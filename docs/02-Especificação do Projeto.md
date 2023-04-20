@@ -4,11 +4,13 @@ A definição do problema a ser resolvido e os pontos mais relevantes a serem tr
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/a.png" width="100" title="Amanda Alves" align="left"> | <h2 align="right"><b>Amanda Alves</b></h2></br></br></br> <p align="left">Idade: 34 <br/> Ocupação: Analista de projetos em empresa de médio porte.  <br/> Tipo sanguíneo: Doador de sangue recorrente do tipo A-. <br/> | Aplicativos: Instagram, Flipboard, Facebook, LinkedIn, Jornais digitais. </p> |
+| --- | --- |
+| Motivações <ul><li>Melhorar de posição no mercado de trabalho.</li><li>Acredita que a área de TI seja promissora. </li><li>Suprir a carência de profissionais no mercado de trabalho na área de TI. </li></ul> | Frustrações <br/> <ul><li>Não sabe por onde começar a estudar.</li> <li>Não atender aos requisitos básicos exigidos nas vagas de emprego.</li> <li>Não ter um plano de estudos eficiente, nem saber como encontrar conteúdos de qualidade.</li></ul> 
+| <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-hemolife/blob/main/docs/img/b.png" width="100" title="Luiza Almeida"> | <h2 align="right"><b>Luiza Almeida</b></h2></br></br></br> <p align="left">Idade: 41 <br/>Ocupação: Coordenadora da Divisão de Hematologia em um hemocentro da região sul de Belo Horizonte.<br/> Tipo sanguíneo: Doadora assídua do tipo O-. </p> |
+| Motivações<ul><li>Encontrar soluções para aumentar os estoques de sangue. </li><li>Facilitar o processo de doação de sangue. </li><li> Incentivar pessoas a doarem sangue.</li></ul> | Frustrações <ul><li> Dificuldade extrema em atrair novos doadores.</li> <li>Ausência de um sistema eficiente que estabeleça uma comunicação entre o doador e o Hemocentro.</li> <li> Falta de campanhas.</li> </ul> |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 

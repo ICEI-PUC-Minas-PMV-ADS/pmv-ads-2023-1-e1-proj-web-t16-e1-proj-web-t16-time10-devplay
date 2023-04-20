@@ -17,8 +17,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Eu como Amanda Alves| Desejo acessar um conteúdo         | Para ter um currículo alinhado com as necessidades do que o mercado de TI está exigindo |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Eu como Amanda Alves| Desejo acessar um conteúdo         |Para ter um currículo alinhado com as necessidades do que o mercado de TI está exigindo|
+|Eu como Amanda Alves| Desejo adicionar um conteúdo à Minha Lista de cursos favoritos | Para ter agrupado todos os conteúdos que desejo assistir ao longo do tempo|
+|Eu como Amanda Alves| Desejo Visualizar os cursos que adicionei na minha lista |Para ter um roteiro de aprendizagem e planejar os próximos tópicos a serem estudados|
+|Eu como Amanda Alves| Desejo continuar assistindo um curso que parei em outro dia | Para não ter que começar o vídeo do início e agilizar o estudo|
+|Eu como Amanda Alves| Acessar aulas na temática de construção de sites para iniciantes| Para poder dar prosseguimento a minha jornada de migração de carreira e iniciar meu primeiro portfólio|
+|Eu como Carlos Gomes| Desejo acessar a plataforma usando login e senha|Para ter acesso à Minha Lista, Continuar Assistindo e Configurações de forma individualizada  |
+|Eu como Carlos Gomes| Desejo remover um conteúdo da minha lista de favoritos| Para poder ter apenas os conteúdos que me interessam e que posso ter adicionado por impulso|
+|Eu como Carlos Gomes| Desejo buscar um conteúdo com o tema de um framework em alta no momento"| Para acessar um tema específico e criar meu primeiro site e iniciar meu portifólio e ter mais chance de conseguir um estágio |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 

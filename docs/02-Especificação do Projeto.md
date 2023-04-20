@@ -34,7 +34,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
-|  ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-1.0 | Ao acessar a plataforma exibir a logo DEVPLAY até que o carregamento das informações iniciais e validação do usuário esteja concluída.| BAIXA | 
 |RF-1.1 | Deve permitir navegação pelas setas.| MÉDIA |
@@ -61,23 +61,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-1.0 | O código fonte deve ser publicado estar acessível publicamente no Github.| ALTA | 
+|RNF-1.1 | Os arquivos estáticos devem estar disponíveis em CDN  |  BAIXA | 
+|RNF-2.0 | Deve ser responsiva no qual deve se ajustar a resolução utilizada pela pessoa usuário. Deve-se utilizar a regra mobile first.| BAIXA |
+|RNF-2.1 | O site deve ser acessível para deficientes visuais (mecanismos de navegação e apresentação do site).|  |
+|RNF-3.0 | Deve ser compatível com os mais diversos navegadores do mercado. (Google Chorme, Opera, Microsoft Edge).| BAIXA |
+|RNF-4.0 | A manutenibilidade do software para modificação ou adaptação deve ser assegurada seguindo os frameworks padrões da indústria | MÉDIA |
+|RNF-5.0 | O site deve ser ter um tempo médio de resposta às requisições dos usuários na média de 5 segundos.| MÉDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -85,9 +76,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 12/07/2023.|
+|RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end.|
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.|
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 

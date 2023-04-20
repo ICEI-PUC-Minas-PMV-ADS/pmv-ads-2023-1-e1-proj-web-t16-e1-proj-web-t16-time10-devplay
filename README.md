@@ -6,11 +6,12 @@ Analise e Desenvolvimento de Sistemas
 `DICIPLINA`
 Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
-Primeiro Semestre 
+`1º/2023`
 
 `CONTEXTO`
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A internet atualmente oferece uma ampla variedade de conteúdos relacionados ao aprendizado de tecnologia, mas muitas vezes esses materiais estão fragmentados em diferentes plataformas. É notável a falta de uma plataforma centralizada para educação em formato streaming, que se tornou tão popular no entretenimento e atende às necessidades dos usuários em um só lugar. 
+
+Através desta aplicação, busca-se contribuir para que aqueles que decidiram ingressar o mercado de trabalho de TI possam ter um início ou transição de carreira mais rápida e bem-sucedida. A interface e usabilidade serão pensadas de forma a serem intuitivas e de fácil utilização, seguindo o padrão consagrado pelas plataformas de streaming já existentes. 
 
 ## Integrantes
 

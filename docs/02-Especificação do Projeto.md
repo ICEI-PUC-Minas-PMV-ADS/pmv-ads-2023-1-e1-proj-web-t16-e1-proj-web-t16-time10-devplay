@@ -61,8 +61,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-1.0 | O código fonte deve ser publicado estar acessível publicamente no Github.| ALTA | 
-|RNF-1.1 | Os arquivos estáticos devem estar disponíveis em CDN  |  BAIXA | 
+|RNF1.0 | O código fonte deve ser publicado estar acessível publicamente no Github.| ALTA | 
+|RNF-1.1 | Os arquivos estáticos devem estar disponíveis em CDN  | | 
 |RNF-2.0 | Deve ser responsiva no qual deve se ajustar a resolução utilizada pela pessoa usuário. Deve-se utilizar a regra mobile first.| BAIXA |
 |RNF-2.1 | O site deve ser acessível para deficientes visuais (mecanismos de navegação e apresentação do site).|  |
 |RNF-3.0 | Deve ser compatível com os mais diversos navegadores do mercado. (Google Chorme, Opera, Microsoft Edge).| BAIXA |

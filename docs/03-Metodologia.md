@@ -67,6 +67,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
+As decisões e diretrizes gerais são definidas horizontalmente a partir de consensos e discussões do grupo. Há uma agenda semanal para encontros, por meio de vídeo chamada, entre os integrantes do grupo, as ferramentas utilizadas para tanto são o Teams e o Gather. Nesse espaço ocorrem grande parte das discussões. Paralelamente, quando necessário, é estabelecido diálogo via mensagens de texto em um grupo no Whatsapp. A distribuição dos papéis foi feita da seguinte maneira: 
+
 ● Scrum Master: 
 > Marcelo de Oliveira Brito
 
@@ -82,8 +84,9 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > Arthur Vieira de Souza Clemente Moraes
 
 
-As decisões e diretrizes gerais são definidas horizontalmente a partir de consensos e discussões do grupo. Há uma agenda semanal para encontros, por meio de vídeo chamada, entre os integrantes do grupo, as ferramentas utilizadas para tanto são o Teams e o Gather. Nesse espaço ocorrem grande parte das discussões. Paralelamente, quando necessário, é estabelecido diálogo via mensagens de texto em um grupo no Whatsapp.  
-Além disso, o grupo foi subdividido em duplas, de forma a garantir que todas as etapas sejam realizadas de forma colaborativa. A cada semana, conforme o cronograma proposto pela PUC Minas, foram distribuídas as tarefas pendentes entre as duplas. É importante salientar que os tópicos dessas tarefas foram previamente discutidos na reunião semanal e em sequência são revisados pelos demais para então ser considerada concluída. O gerenciamento desse fluxo de entregas é realizado por meio do trello, conforme discriminado na tabela da seção anterior, uma ferramenta que nos permite criar um quadro kanban, como ilustrado na figura 1, e é composto pelas seguintes listas:  
+Além disso, o grupo foi subdividido em duplas, de forma a garantir que todas as etapas sejam realizadas de forma colaborativa. A cada semana, conforme o cronograma proposto pela PUC Minas, foram distribuídas as tarefas pendentes entre as duplas. É importante salientar que os tópicos dessas tarefas foram previamente discutidos na reunião semanal e em sequência são revisados pelos demais para então ser considerada concluída. 
+
+O gerenciamento desse fluxo de entregas é realizado por meio do trello, conforme discriminado na tabela da seção anterior, uma ferramenta que nos permite criar um quadro kanban, como ilustrado na figura 1, e é composto pelas seguintes listas:  
 
 ● A fazer: onde são feitos cards separando cada parte do projeto que deve ser feito, detalhando a data de início e término e qual dupla ficará responsável por fazê-la. 
 

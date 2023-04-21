@@ -11,13 +11,6 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Fluxo de usuário (User Flow ou Fluxograma) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe. Em nosso modelo, na notação BPMN, temos um fluxo em que o usuário inicia sua interação ao entrar no site, passando por páginas a depender de suas preferências.É 
 
-
-## Wireframes
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
 ## Tela - Home-Page (Index)
 
 Em falta.

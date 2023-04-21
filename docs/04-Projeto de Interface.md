@@ -18,11 +18,69 @@ Fluxo de usuário (User Flow ou Fluxograma) é uma técnica que permite ao desen
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+## Tela - Home-Page (Index)
+
+Em falta.
+
+## Tela - Carregamento 
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/loadingpage.png">
+</div>
+
+
+## Tela - Criar Conta
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/signuppage.png">
+</div>
+
+## Tela - Pesquisa de Onboarding
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/onboardingpage.png">
+</div>
+
+## Tela - Login
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/loginpage.png">
+</div>
+
+## Tela - Esqueceu a senha
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/forgetpasswordpage.png">
+</div>
+
+## Tela - Área logada com trilhos
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/indexpage.png">
+</div>
+
+## Tela - Resultados de busca
+
+Em falta.
+
+## Tela - Conteúdos favoritos
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/favoritepage.png">
+</div>
+
+## Tela - Continuar assistindo
+
+Em falta.
+
+## Tela - Informações detalhadas do conteúdo
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/previewcontentpage.png">
+</div>
+
+## Tela - Reprodução do conteúdo
+
+<div>
+<img align="center"  width="411px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/playcontent.png">
+</div>

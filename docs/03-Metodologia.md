@@ -3,66 +3,6 @@
 
 A organização do projeto foi realizada de forma a potencializar o aprendizado dos integrantes do grupo, prezando pela construção conjunta, mas utilizando metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
-## Relação de Ambientes de Trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
-
-<table border="1">
-    <tr>
-        <th>Ambiente</th>
-        <th>Plataforma</th>
-        <th>Link de Acesso</th>
-    </tr>
-    <tr>
-        <td>Repositório de código fonte</td>
-        <td>GitHub</td>
-        <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay)</td>
-    </tr>
-    <tr>
-        <td>Documentação do projeto</td>
-        <td>GitHub</td>
-        <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/tree/main/docs)</td>
-     </tr>
-     <tr>
-        <td>Projeto de Interface e Wireframes</td>
-        <td>Excalidraw</td>
-        <td>(https://excalidraw.com/#room=999ea723797f4c2e310f,P5Y39hDxOrz3wZbYHiH1xA)</td>
-    </tr>
-    <tr>
-        <td>Gerenciamento do Projeto</td>
-        <td>Trello</td>
-        <td>(https://trello.com/b/AhwtgmS6/projeto-eixo-1) </td>
-    </tr>
-    <tr>
-        <td>Gerenciamento do Projeto</td>
-        <td>Gather</td>
-        <td>(https://app.gather.town/app/36jFZAxrx2XkQhsF/midia%20house) </td>
-    </tr>
-</table>
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -100,10 +40,6 @@ O gerenciamento desse fluxo de entregas é realizado por meio do trello, conform
 
 ![gerenciamento_do_projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/trellodevplay.png)
 
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
@@ -120,3 +56,45 @@ sistema de versão. As ferramentas de comunicação utilizadas possuem
 integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
+
+
+### Processo
+
+Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+## Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
+
+<table border="1">
+    <tr>
+        <th>Ambiente</th>
+        <th>Plataforma</th>
+        <th>Link de Acesso</th>
+    </tr>
+    <tr>
+        <td>Repositório de código fonte</td>
+        <td>GitHub</td>
+        <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay)</td>
+    </tr>
+    <tr>
+        <td>Documentação do projeto</td>
+        <td>GitHub</td>
+        <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/tree/main/docs)</td>
+     </tr>
+     <tr>
+        <td>Projeto de Interface e Wireframes</td>
+        <td>Excalidraw</td>
+        <td>(https://excalidraw.com/#room=999ea723797f4c2e310f,P5Y39hDxOrz3wZbYHiH1xA)</td>
+    </tr>
+    <tr>
+        <td>Gerenciamento do Projeto</td>
+        <td>Trello</td>
+        <td>(https://trello.com/b/AhwtgmS6/projeto-eixo-1) </td>
+    </tr>
+    <tr>
+        <td>Gerenciamento do Projeto</td>
+        <td>Gather</td>
+        <td>(https://app.gather.town/app/36jFZAxrx2XkQhsF/midia%20house) </td>
+    </tr>
+</table>

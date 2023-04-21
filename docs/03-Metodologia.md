@@ -68,14 +68,19 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 ● Scrum Master: 
- > Marcelo de Oliveira Brito  
+> Marcelo de Oliveira Brito
+
 ● Product Owner: 
- > Isabella Perdigão Napier  
+> Isabella Perdigão Napier
+
 ● Equipe de Desenvolvimento 
- > Pedro Melo Cavalcanti Filho  
- > Júlia Perdigão de Melo Couto  
+> Pedro Melo Cavalcanti Filho
+
+> Júlia Perdigão de Melo Couto
+
 ● Equipe de Design 
- > Arthur Vieira de Souza Clemente Moraes
+> Arthur Vieira de Souza Clemente Moraes
+
 
 As decisões e diretrizes gerais são definidas horizontalmente a partir de consensos e discussões do grupo. Há uma agenda semanal para encontros, por meio de vídeo chamada, entre os integrantes do grupo, as ferramentas utilizadas para tanto são o Teams e o Gather. Nesse espaço ocorrem grande parte das discussões. Paralelamente, quando necessário, é estabelecido diálogo via mensagens de texto em um grupo no Whatsapp.  
 Além disso, o grupo foi subdividido em duplas, de forma a garantir que todas as etapas sejam realizadas de forma colaborativa. A cada semana, conforme o cronograma proposto pela PUC Minas, foram distribuídas as tarefas pendentes entre as duplas. É importante salientar que os tópicos dessas tarefas foram previamente discutidos na reunião semanal e em sequência são revisados pelos demais para então ser considerada concluída. O gerenciamento desse fluxo de entregas é realizado por meio do trello, conforme discriminado na tabela da seção anterior, uma ferramenta que nos permite criar um quadro kanban, como ilustrado na figura 1, e é composto pelas seguintes listas:  

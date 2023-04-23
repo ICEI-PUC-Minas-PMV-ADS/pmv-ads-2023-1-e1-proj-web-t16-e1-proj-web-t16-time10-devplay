@@ -21,7 +21,7 @@ Imagem em falta.
 
 ### Tela - Carregamento 
 
-Essa tela é responsável por apresentar o período de carregamento do site.
+Antes de fato exibir o conteúdo em si, é feita a obtenção de informações essenciais ao funcionamento do site. Dentre essas informações são configurações remotas, download de assets, recuperação de caches locais, entre outros. Durante esse período o site entra em modo _bootstrap_ e esta tela é exibida.
 
 <div>
 <img align="center"  width="600px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/loadingpage.png">
@@ -29,7 +29,9 @@ Essa tela é responsável por apresentar o período de carregamento do site.
 
 ### Tela - Criar Conta
 
-Página de criação de conta, a qual será criado uma conta para o usuário. Serão necessárias algumas informações para que a conta seja criada, como nome de usuário, e-mail, senha, data de nascimento.
+Permite aos usuários se registrar fornecendo informações como nome, endereço de e-mail e uma senha escolhida pelo usuário. Ele funciona ao solicitar que o usuário insira essas informações em um formulário, que inclui uma confirmação de senha e pode incluir outros campos, como data de nascimento.
+
+Após enviar as informações de registro, o componente de criar conta verifica se as informações fornecidas são válidas e únicas. Se tudo estiver correto, o usuário é redirecionado para a página de Onboarding.
 
 <div>
 <img align="center"  width="600px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/signuppage.png">
@@ -45,7 +47,7 @@ Essa tela é responsável para que o usuário seja recomendado com conteúdos ad
 
 ### Tela - Login
 
-A tela de login é responsável para que o usuário acesse à sua conta.
+Permite aos usuários acessar uma área restrita do site, com um nome de usuário e uma senha. Ele funciona ao solicitar que o usuário insira suas informações de login em um formulário e, em seguida, verifica essas informações em um banco de dados ou sistema de autenticação. Se as informações estiverem corretas, o usuário é redirecionado para a área restrita do site.
 
 <div>
 <img align="center"  width="600px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/loginpage.png">
@@ -53,7 +55,9 @@ A tela de login é responsável para que o usuário acesse à sua conta.
 
 ### Tela - Esqueceu a senha
 
-Se o usuário já tiver feito o cadastro mas tiver esquecido a senha será possível recuperar a mesma por um e-mail que lhe será enviado.
+Permite aos usuários recuperarem o acesso à sua conta caso tenham esquecido sua senha. Ele funciona ao solicitar que o usuário insira seu endereço de e-mail ou nome de usuário no site e, em seguida, enviar um e-mail de redefinição de senha para o endereço de e-mail associado à conta.
+
+O e-mail de redefinição de senha geralmente contém um link seguro que leva o usuário de volta ao site para criar uma nova senha. Depois de criar uma nova senha, o usuário pode acessar sua conta novamente.
 
 <div>
 <img align="center"  width="600px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/forgetpasswordpage.png">
@@ -97,7 +101,7 @@ Essa tela exibirá informações detalhadas sobre o conteúdo em que foi clicado
 
 ### Tela - Reprodução do conteúdo
 
-Nessa tela o conteúdo escolhiod pelo usuário será exibido.
+Nessa tela o conteúdo escolhiod pelo usuário será exibido. É composta pelo player com _media controls_ e informações adicionais dependendo do contexto da reprodução.
 
 <div>
 <img align="center"  width="600px" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/playcontent.png">

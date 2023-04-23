@@ -58,10 +58,6 @@ diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
 
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
@@ -98,3 +94,26 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
         <td>(https://app.gather.town/app/36jFZAxrx2XkQhsF/midia%20house) </td>
     </tr>
 </table>
+
+### Processo
+
+Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+## Product backlog
+
+## Sprint 1
+● Planejamento
+> Documentação de Contexto
+
+> Especificação do Projeto
+
+● Execução
+● Evidências
+
+## Sprint 2
+● Planejamento
+> Metodologia
+
+> Projeto de Interface
+● Execução
+● Evidências

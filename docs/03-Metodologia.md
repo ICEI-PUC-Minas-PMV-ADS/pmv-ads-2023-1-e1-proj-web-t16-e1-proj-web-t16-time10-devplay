@@ -125,7 +125,9 @@ Ainda em produção.
 > As tarefas foram divididas entre os integrantes do grupo.
 
 ● Evidências
-> <span style="color:red">Evidências: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+> <span style="color:red">Repositório: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+
+> <span style="color:red">Repositório: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>
 
 ### Sprint 2
 ● Planejamento
@@ -142,7 +144,9 @@ Ainda em produção.
 > Wireframes/Telas
 
 ● Execução
->
+> As tarefas foram divididas entre os integrantes do grupo.
 
 ● Evidências
->
+> <span style="color:red">Repositório: <a href="03-Metodologia.md"> Metodologia</a></span>
+
+> <span style="color:red">Repositório: <a href="04-Projeto de Interface.md"> Projeto de Interface</a></span>

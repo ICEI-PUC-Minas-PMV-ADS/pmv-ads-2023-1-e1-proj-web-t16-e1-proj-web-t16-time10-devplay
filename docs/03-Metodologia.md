@@ -3,9 +3,7 @@
 
 A organização do projeto foi realizada de forma a potencializar o aprendizado dos integrantes do grupo, prezando pela construção conjunta, mas utilizando metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
-## Gerenciamento de Projeto
-
-### Divisão de Papéis
+## Equipe de Trabalho
 
 As decisões e diretrizes gerais são definidas horizontalmente a partir de consensos e discussões do grupo. Há uma agenda semanal para encontros, por meio de vídeo chamada, entre os integrantes do grupo, as ferramentas utilizadas para tanto são o Teams e o Gather. Nesse espaço ocorrem grande parte das discussões. Paralelamente, quando necessário, é estabelecido diálogo via mensagens de texto em um grupo no Whatsapp. A distribuição dos papéis foi feita da seguinte maneira: 
 
@@ -40,7 +38,7 @@ O gerenciamento desse fluxo de entregas é realizado por meio do trello, conform
 
 ![gerenciamento_do_projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/trellodevplay.png)
 
-### Ferramentas
+## Ferramentas
 
 As ferramentas empregadas no projeto são:
 
@@ -95,25 +93,32 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
     </tr>
 </table>
 
-### Processo
+## Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
 
-## Product backlog
+### Product backlog
 
-## Sprint 1
+### Sprint 1
 ● Planejamento
 > Documentação de Contexto
 
 > Especificação do Projeto
 
 ● Execução
-● Evidências
+>
 
-## Sprint 2
+● Evidências
+>
+
+### Sprint 2
 ● Planejamento
 > Metodologia
 
 > Projeto de Interface
+
 ● Execução
+>
+
 ● Evidências
+>

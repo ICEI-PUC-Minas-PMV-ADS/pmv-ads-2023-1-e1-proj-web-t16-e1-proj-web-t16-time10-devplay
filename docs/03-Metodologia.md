@@ -99,11 +99,27 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Product backlog
 
+Ainda em produção.
+
 ### Sprint 1
 ● Planejamento
-> Documentação de Contexto
+> Introdução
 
-> Especificação do Projeto
+> Problema
+
+> Objetivos
+
+> Justificativa
+
+> Público-alvo
+
+> Personas
+
+> Histórias de usuários
+
+> Requisitos
+
+> Restrições
 
 ● Execução
 >
@@ -113,9 +129,17 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Sprint 2
 ● Planejamento
-> Metodologia
+> Equipe de trabalho
 
-> Projeto de Interface
+> Ferramentas
+
+> Relação de ambientes de trabalho
+
+> Processo
+
+> Fluxograma
+
+> Wireframes/Telas
 
 ● Execução
 >

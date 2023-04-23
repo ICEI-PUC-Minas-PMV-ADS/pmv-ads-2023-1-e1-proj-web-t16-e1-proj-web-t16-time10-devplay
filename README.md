@@ -16,7 +16,6 @@ Através desta aplicação, busca-se contribuir para que aqueles que decidiram i
 ## Integrantes
 
 * Arthur Vieira de Souza Clemente Moraes
-* Franciane Correa da Silva 
 * Isabella Perdigão Napier
 * Júlia Perdigão de Melo Couto 
 * Marcelo Oliveira de Brito 

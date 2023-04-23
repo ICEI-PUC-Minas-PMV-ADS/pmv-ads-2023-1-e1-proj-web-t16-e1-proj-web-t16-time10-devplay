@@ -122,10 +122,10 @@ Ainda em produção.
 > Restrições
 
 ● Execução
->
+> As tarefas foram divididas entre os integrantes do grupo.
 
 ● Evidências
->
+> <span style="color:red">Evidências: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 ### Sprint 2
 ● Planejamento

@@ -49,11 +49,33 @@
     <div class="separador__secao">
         <img src="../img/retangulo.png" alt="separador__retangulo">
     </div>
-    <section class="cadastro">
-             
-    </section>
+    <div class="cadastro">
+        <form id="cadastro__formulario" class="cadastro__formulario">
+            <h2 class="cadastro__formulario__cabecalho"> PREENCHA OS SEUS DADOS E INICIE A SUA JORNADA!</h2>
+            <label class="labelnome">NOME COMPLETO</label>
+            <input class="cadastro__controle" type="text" id="nome" placeholder="DIGITE O SEU NOME COMPLETO" required minlength="10" maxlength="70">
+            <label class="labeldata">DATA DE NASCIMENTO</label>
+            <input class ="cadastro__controle" type="date" required>
+            <label class="labelemail">E-MAIL</label>
+            <input class="cadastro__controle" type="email" id="email" placeholder="SEU MELHOR E-MAIL" required>
+            <label class="labelsenha">SENHA</label>
+            <input class ="cadastro__controle" type="password" minlength="6" maxlength="25" required>
+            <label class="labelconfirmarsenha">CONFIRMAR SENHA</label>
+            <input class ="cadastro__controle" type="password" minlength="6" maxlength="25" required>
+            <div class="cadastro__checkbox">
+                <input type="checkbox">
+                <p class="checkbox__titulo__newsletter"> Deseja fazer parte de nossa Newsletter?</p>
+                <input type="checkbox" required>
+                <p class="checkbox__titulo__newsletter"> Eu aceito os termos de uso.</p>
+            </div>
+            <div class="botao__cadastro">
+                <button class="finalizar__cadastro" id="botao__finalizar__cadastro"> FINALIZAR CADASTRO</button>
+            </div>
+            </div>
+        </form>
+    </div>
     <section class="rodape">
+        <img class="rodape__logo" src="../img/devplaay logo.svg" alt="logo__provisoria">
     </section>
-
 </body>
 </html>

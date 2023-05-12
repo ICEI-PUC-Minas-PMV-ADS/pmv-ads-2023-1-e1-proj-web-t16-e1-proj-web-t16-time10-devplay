@@ -15,11 +15,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Root />,
         errorElement: <ErrorPage />
-    },
-    {
-        path: "contacts/:contactId",
-        element: <Contact />,
-    },
+    }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -71,7 +71,7 @@
         <img src="../img/retangulo.png" alt="separador__retangulo">
     </div>
     <div class="cadastro">
-        <form id="cadastro__formulario" class="cadastro__formulario">
+        <form class="cadastro__formulario" cadastro-form>
             <div class="cadastro__formulario__cabecalho"> 
                 <p class="cad__form__botao">PREENCHA OS SEUS DADOS E INICIE A SUA JORNADA!</p>
             </div>
@@ -80,9 +80,9 @@
             <label class="labelemail">E-MAIL</label>
             <input class="cadastro__controle" type="email" id="email" placeholder="E-MAIL" required>
             <label class="labelsenha">SENHA</label>
-            <input class ="cadastro__controle" type="password" placeholder="SENHA" minlength="6" maxlength="25" required>
+            <input class ="cadastro__controle" type="password" id="senha" placeholder="SENHA" minlength="6" maxlength="25" required>
             <label class="labelconfirmarsenha">CONFIRMAR SENHA</label>
-            <input class ="cadastro__controle" type="password" placeholder="CONFIRMAR SENHA" minlength="6" maxlength="25" required>
+            <input class ="cadastro__controle" type="password" id="confirmarsenha" placeholder="CONFIRMAR SENHA" minlength="6" maxlength="25" required>
             <div class="cadastro__checkbox">
                 <input type="checkbox">
                 <p class="checkbox__titulo__newsletter"> Deseja fazer parte de nossa Newsletter?</p>
@@ -100,5 +100,6 @@
     <section class="rodape">
         <img class="rodape__logo" src="../img/devplaay logo.svg" alt="logo__provisoria">
     </section>
+    <script src="../js/createaccount.js" type="module" ></script>
 </body>
 </html>

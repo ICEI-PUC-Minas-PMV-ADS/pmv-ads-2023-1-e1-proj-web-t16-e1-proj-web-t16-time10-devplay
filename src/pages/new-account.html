@@ -43,27 +43,27 @@
         <ul class="roadmaps__lista">
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">Front-End</p>
-                <img src="../img/programming.png" alt="roadmaps__imagem">
+                <img src="../img/programming.png" class ="roadmaps__logo" alt="roadmaps__imagem ">
             </li>
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">Back-End</p>
-                <img src="../img/backend.png" alt="roadmaps__imagem">
+                <img src="../img/backend.png" class ="roadmaps__logo" alt="roadmaps__imagem">
             </li>
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">UX & Design</p>
-                <img src="../img/ux.png" alt="roadmaps__imagem">
+                <img src="../img/ux.png" class ="roadmaps__logo" alt="roadmaps__imagem">
             </li>
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">Mobile</p>
-                <img src="../img/smartphone.png" alt="roadmaps__imagem">
+                <img src="../img/smartphone.png" class ="roadmaps__logo" alt="roadmaps__imagem">
             </li>
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">Metodologias</p>
-                <img src="../img/scrum.png" alt="roadmaps__imagem">
+                <img src="../img/scrum.png" class ="roadmaps__logo" alt="roadmaps__imagem">
             </li>
             <li class="roadmaps__item">
                 <p class="roadmaps__texto">Games</p>
-                <img src="../img/game-console.png" alt="roadmaps__imagem">
+                <img src="../img/game-console.png" class ="roadmaps__logo" alt="roadmaps__imagem">
             </li>
         </ul>
     </section>
@@ -72,17 +72,17 @@
     </div>
     <div class="cadastro">
         <form id="cadastro__formulario" class="cadastro__formulario">
-            <h2 class="cadastro__formulario__cabecalho"> PREENCHA OS SEUS DADOS E INICIE A SUA JORNADA!</h2>
+            <div class="cadastro__formulario__cabecalho"> 
+                <p class="cad__form__botao">PREENCHA OS SEUS DADOS E INICIE A SUA JORNADA!</p>
+            </div>
             <label class="labelnome">NOME COMPLETO</label>
-            <input class="cadastro__controle" type="text" id="nome" placeholder="DIGITE O SEU NOME COMPLETO" required minlength="10" maxlength="70">
-            <label class="labeldata">DATA DE NASCIMENTO</label>
-            <input class ="cadastro__controle" type="date" required>
+            <input class="cadastro__controle" type="text" id="nome" placeholder="NOME COMPLETO" required minlength="10" maxlength="70">
             <label class="labelemail">E-MAIL</label>
-            <input class="cadastro__controle" type="email" id="email" placeholder="SEU MELHOR E-MAIL" required>
+            <input class="cadastro__controle" type="email" id="email" placeholder="E-MAIL" required>
             <label class="labelsenha">SENHA</label>
-            <input class ="cadastro__controle" type="password" minlength="6" maxlength="25" required>
+            <input class ="cadastro__controle" type="password" placeholder="SENHA" minlength="6" maxlength="25" required>
             <label class="labelconfirmarsenha">CONFIRMAR SENHA</label>
-            <input class ="cadastro__controle" type="password" minlength="6" maxlength="25" required>
+            <input class ="cadastro__controle" type="password" placeholder="CONFIRMAR SENHA" minlength="6" maxlength="25" required>
             <div class="cadastro__checkbox">
                 <input type="checkbox">
                 <p class="checkbox__titulo__newsletter"> Deseja fazer parte de nossa Newsletter?</p>
@@ -90,7 +90,9 @@
                 <p class="checkbox__titulo__newsletter"> Eu aceito os termos de uso.</p>
             </div>
             <div class="botao__cadastro">
-                <button class="finalizar__cadastro" id="botao__finalizar__cadastro"> FINALIZAR CADASTRO</button>
+                <button class="finalizar__cadastro"> 
+                    <p class="cad__botao">FINALIZAR CADASTRO</p>
+                </button>
             </div>
             </div>
         </form>

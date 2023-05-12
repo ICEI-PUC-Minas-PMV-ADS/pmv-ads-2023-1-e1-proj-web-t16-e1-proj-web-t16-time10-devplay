@@ -1,6 +1,9 @@
 @import url("src/css/header.css");
 @import url("src/css/banner.css");
 @import url("src/css/container.css");
+@import url("src/css/roadmaps.css");
+@import url("src/css/separador.css");
+@import url("src/css/cadastro.css");
 
 :root {
     --cor-de-fundo: #ffffff;

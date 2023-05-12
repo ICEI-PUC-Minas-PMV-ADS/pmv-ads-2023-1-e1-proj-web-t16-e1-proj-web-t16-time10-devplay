@@ -5,23 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevPlay - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
-    <section class="header">
+    <div class="header">
         <img src="../img/devplaay logo.svg" alt="logo__header" class="header__logo">
         <a href="/login" class="header__nav__login"> ENTRAR </a>
-        <a href="/new-account" class="header__nav__cadastro"> CADASTRO</a>
-        </div>
-    </section>
+        <button class="header__nav__cadastro">
+            <a href="/new-account" class="nav__botao"> CADASTRO </a>
+        </button>
+    </div>
     <section class="banner">
         <h2 class="banner__titulo">Dê um play na sua carreira. </h2>
         <p class="banner__texto">A plataforma que vai te ajudar a se 
             tornar um programador de sucesso. </p>
     </section>
-    <div class="beneficios">
-        <img src="../img/24-hours-support.png" alt="icone__24__horas" class="beneficios__24horas">
-        <img src="../img/buffer.png" alt="icone__reproducao" class="beneficios__reproducao">
-        <img src="../img/coding.png" alt="icone__codigo" class="beneficios__codigo">
+    <div class="container">
+        <div class="container__bloco">
+            <img src="../img/24-hours-support.png" alt="icone__24__horas" class="container__imagem">
+            <p class="texto__container">Estude quando quiser</p>
+        </div>
+        <div class="container__bloco">
+            <img src="../img/buffer.png" alt="icone__reproducao" class="container__imagem">
+            <p class="texto__container">Estude no seu ritmo</p>
+        </div>
+        <div class="container__bloco">
+            <img src="../img/coding.png" alt="icone__codigo" class="container__imagem">
+            <p class="texto__container">Evolua a sua jornada</p>
+        </div>
     </div>
     <section class="roadmaps">
         <h3 class="roadmaps__titulo">Você pode escolher assistir </h3>

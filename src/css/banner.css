@@ -1,0 +1,19 @@
+.banner{
+    background-color: #363030;
+    text-align: center;
+    padding: 4em 1.5em;
+}
+
+.banner__titulo{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700px;
+    margin: 4em 0;
+}
+
+.banner__texto{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700px;
+    margin: 4em 1em;
+}

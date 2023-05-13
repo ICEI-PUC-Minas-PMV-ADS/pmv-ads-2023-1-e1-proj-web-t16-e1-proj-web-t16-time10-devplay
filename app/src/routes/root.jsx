@@ -1,4 +1,5 @@
 import Trails from "../components/Rails";
+import MainMenu from "../components/main-menu";
 import LogoDevPlay from "../images/DevPlayLogo.svg"
 import { FaBars} from 'react-icons/fa'
 import { FiUser } from 'react-icons/fi';
@@ -26,6 +27,8 @@ export default function Root() {
                 />
 
                 <FiUser size= "20px" />
+
+                <MainMenu />
             </TopBar>
 
             <main>

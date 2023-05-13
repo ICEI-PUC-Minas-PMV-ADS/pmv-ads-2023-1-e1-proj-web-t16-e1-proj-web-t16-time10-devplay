@@ -16,6 +16,7 @@ export default function Contact() {
                 <img
                     key={contact.avatar}
                     src={contact.avatar || null}
+                    alt=""
                 />
             </div>
 
@@ -35,7 +36,7 @@ export default function Contact() {
                     <p>
                         <a
                             target="_blank"
-                            href={`https://twitter.com/${contact.twitter}`}
+                            href={`https://twitter.com/${contact.twitter}`} rel="noreferrer"
                         >
                             {contact.twitter}
                         </a>
@@ -53,6 +54,7 @@ export default function Contact() {
                         action="destroy"
                         onSubmit={(event) => {
                             if (
+                                // eslint-disable-next-line no-restricted-globals
                                 !confirm(
                                     "Please confirm you want to delete this record."
                                 )

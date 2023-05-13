@@ -1,6 +1,10 @@
+import LateralVideo from "../components/lateralModal/lateralVideo";
+import ExemploDeThumb from "../images/exemploDethumb.svg"
+
 export default function Root() {
     return (
         <>
+        <LateralVideo />
             <div id="sidebar">
                 <h1>React Router Contacts</h1>
                 <div>
@@ -38,6 +42,10 @@ export default function Root() {
                 </nav>
             </div>
             <div id="detail"></div>
+            <div className="trilhos">
+                
+                <img src= { ExemploDeThumb} alt="Thumb" width="350px"  />
+            </div>
         </>
     );
 }

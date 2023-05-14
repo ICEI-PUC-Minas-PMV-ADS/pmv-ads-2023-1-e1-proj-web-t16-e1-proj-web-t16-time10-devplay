@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ExemploDeThumb from "../../../images/Exemplo2.svg"
+import ExemploDeThumb from "../images/Exemplo2.svg"
 import styled from "styled-components";
 
 export default function SidebarVideo({ selectedCourse }) {
@@ -131,9 +131,4 @@ border: 4px solid white;
       border: 4px transparent #4FABE0 #0B92E0 #4FABE0 #3A7EA6;
     }
   }
-`
-
-const ButtonTagA = styled.a`
-text-decoration: none;
-  color: white;
 `

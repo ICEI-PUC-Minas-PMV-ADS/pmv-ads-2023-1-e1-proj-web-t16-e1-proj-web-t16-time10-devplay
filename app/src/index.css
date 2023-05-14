@@ -13,17 +13,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.topBar {
+/* .topBar {
   display: flex;
   justify-content: space-between;
   background-color: #076094;
   align-items: center;
-}
+} */
 
-.trilhos > img {
+/* .trilhos > img {
   border: 2px solid red;
-}
-
+} */
+/* 
 .VideoMenu {
   background-color: #940F13;
   color: white;
@@ -36,23 +36,23 @@ code {
   /* animation-name: painelOpen;
   animation-duration: 7s;
   animation-fill-mode: forwards; */
-}
+/* } */ 
 
-.FaTimes {
+/* .FaTimes {
   position: fixed;
-}
+} */
 
-.infosof {
+/* .infosof {
   display: flex;
   flex-direction: column;
   align-items: center;
   
-}
+} */
 
-.infosof >h1 {
+/* .infosof >h1 {
   text-align: center;
   font-family: 'Roboto Serif', serif;
-}
+} */
 
 .infosof > img {
   border-radius: 10px;

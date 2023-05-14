@@ -1,6 +1,15 @@
+import Rails from "../components/VideoRails/Rails";
+import LogoDevPlay from "../images/DevPlayLogo.svg"
+import { FaBars} from 'react-icons/fa'
+import { FiUser } from 'react-icons/fi';
 export default function Root() {
     return (
         <>
+            <div className="topBar">
+            <FaBars size= "20px" />
+            <img src={LogoDevPlay} alt="Logo" width= "150px"/>
+            <FiUser size= "20px" />
+            </div>
             <div id="sidebar">
                 <h1>React Router Contacts</h1>
                 <div>
@@ -38,6 +47,7 @@ export default function Root() {
                 </nav>
             </div>
             <div id="detail"></div>
+            <Rails />
         </>
     );
 }

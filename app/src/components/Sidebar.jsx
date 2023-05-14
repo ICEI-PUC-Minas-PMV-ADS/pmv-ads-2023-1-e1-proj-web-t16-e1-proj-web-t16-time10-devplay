@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import ExemploDeThumb from "../../../images/Exemplo2.svg"
+import ExemploDeThumb from "../images/Exemplo2.svg"
 
 const SidebarVideo = ({ active }) => {
   const closeSidebar = () => {

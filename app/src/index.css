@@ -13,16 +13,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.topBar {
-  display: flex;
-  justify-content: space-between;
-  background-color: #076094;
-  align-items: center;
-}
-
-.trilhos > img {
-  border: 2px solid red;
-}
 
 .VideoMenu {
   background-color: #940F13;

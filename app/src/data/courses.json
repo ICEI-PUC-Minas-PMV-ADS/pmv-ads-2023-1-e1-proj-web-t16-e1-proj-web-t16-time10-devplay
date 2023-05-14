@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Web Design Responsivo",
+        "autor": "Tuts+",
+        "duracao": "6 horas",
+        "descricao": "Aprenda a criar sites responsivos que se adaptam a diferentes dispositivos e tamanhos de tela, utilizando HTML, CSS e JavaScript."
+    },
+    {
+        "nome": "JavaScript para Iniciantes",
+        "autor": "Udemy",
+        "duracao": "15 horas",
+        "descricao": "Este curso de JavaScript é voltado para iniciantes e ensina os conceitos básicos da linguagem, como variáveis, funções, loops e condições."
+    },
+    {
+        "nome": "React - O Guia Completo",
+        "autor": "Maximilian Schwarzmüller",
+        "duracao": "50 horas",
+        "descricao": "Aprenda a utilizar o React, uma das principais bibliotecas de JavaScript para construir interfaces de usuário interativas e escaláveis para aplicações web modernas."
+    },
+    {
+        "nome": "UI/UX Design",
+        "autor": "Alura",
+        "duracao": "10 horas",
+        "descricao": "Este curso ensina conceitos de design de interfaces de usuário e experiência do usuário (UI/UX), incluindo wireframes, protótipos e testes de usabilidade."
+    },
+    {
+        "nome": "CSS Avançado",
+        "autor": "Codecademy",
+        "duracao": "20 horas",
+        "descricao": "Este curso de CSS aborda tópicos avançados, como animações, transições, grid layout e flexbox, para criar designs de páginas web mais sofisticados."
+    }
+]

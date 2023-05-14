@@ -4,14 +4,16 @@ import { FaBars} from 'react-icons/fa'
 import { FiUser } from 'react-icons/fi';
 import courses from "../data/courses.json";
 import styled from "styled-components";
+import SidebarVideo from "../components/Sidebar";
+import { useLoaderData } from "react-router-dom";
 
-const TopBar = styled.div`
-  display: flex;
-  justify-content: space-between;
-  background-color: #076094;
-  align-items: center;
-`
+export async function loader({ params }) {
+    const selectedCourse = courses.find(course => course.titleId == params.titileId);
+    return { selectedCourse }
+}
 export default function Root() {
+    const { selectedCourse } = useLoaderData() || {};
+
     return (
         <>
             <TopBar>
@@ -29,6 +31,15 @@ export default function Root() {
             <main>
                 <Trails courses={ courses } />
             </main>
+
+            { selectedCourse && <SidebarVideo selectedCourse={ selectedCourse } /> }
         </>
     );
 }
+
+const TopBar = styled.div`
+  display: flex;
+  justify-content: space-between;
+  background-color: #076094;
+  align-items: center;
+`

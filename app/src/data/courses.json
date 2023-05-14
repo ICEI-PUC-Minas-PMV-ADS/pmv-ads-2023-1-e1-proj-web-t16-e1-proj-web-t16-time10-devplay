@@ -1,32 +1,93 @@
 [
     {
         "nome": "Web Design Responsivo",
+        "titleId": 1,
         "autor": "Tuts+",
         "duracao": "6 horas",
         "descricao": "Aprenda a criar sites responsivos que se adaptam a diferentes dispositivos e tamanhos de tela, utilizando HTML, CSS e JavaScript."
     },
     {
         "nome": "JavaScript para Iniciantes",
+        "titleId": 2,
         "autor": "Udemy",
         "duracao": "15 horas",
         "descricao": "Este curso de JavaScript é voltado para iniciantes e ensina os conceitos básicos da linguagem, como variáveis, funções, loops e condições."
     },
     {
         "nome": "React - O Guia Completo",
+        "titleId": 3,
         "autor": "Maximilian Schwarzmüller",
         "duracao": "50 horas",
         "descricao": "Aprenda a utilizar o React, uma das principais bibliotecas de JavaScript para construir interfaces de usuário interativas e escaláveis para aplicações web modernas."
     },
     {
         "nome": "UI/UX Design",
+        "titleId": 4,
         "autor": "Alura",
         "duracao": "10 horas",
         "descricao": "Este curso ensina conceitos de design de interfaces de usuário e experiência do usuário (UI/UX), incluindo wireframes, protótipos e testes de usabilidade."
     },
     {
         "nome": "CSS Avançado",
+        "titleId": 5,
         "autor": "Codecademy",
         "duracao": "20 horas",
         "descricao": "Este curso de CSS aborda tópicos avançados, como animações, transições, grid layout e flexbox, para criar designs de páginas web mais sofisticados."
+    },
+    {
+        "nome": "Desenvolvimento Front-end com Angular",
+        "titleId": 6,
+        "autor": "Digital Innovation One",
+        "duracao": "40 horas",
+        "descricao": "Aprenda a utilizar o Angular, um dos frameworks mais populares para desenvolvimento front-end, para criar aplicações web escaláveis e de alta performance."
+    },
+    {
+        "nome": "Design de Interfaces com Figma",
+        "titleId": 7,
+        "autor": "Udemy",
+        "duracao": "6 horas",
+        "descricao": "Este curso ensina a utilizar o Figma, uma das ferramentas mais populares de design de interfaces de usuário, para criar wireframes, protótipos e designs de páginas web."
+    },
+    {
+        "nome": "Bootstrap 5 - Do Início ao Avançado",
+        "titleId": 8,
+        "autor": "HCode",
+        "duracao": "20 horas",
+        "descricao": "Aprenda a utilizar o Bootstrap 5, um dos frameworks mais populares de front-end para criar páginas web responsivas e com um design moderno e sofisticado."
+    },
+    {
+        "nome": "React Native - Desenvolvimento Mobile",
+        "titleId": 9,
+        "autor": "Rocketseat",
+        "duracao": "80 horas",
+        "descricao": "Aprenda a utilizar o React Native, uma das principais bibliotecas de JavaScript para desenvolvimento mobile, para criar aplicativos para iOS e Android com uma única base de código."
+    },
+    {
+        "nome": "SASS - Curso Completo",
+        "titleId": 10,
+        "autor": "Origamid",
+        "duracao": "10 horas",
+        "descricao": "Este curso ensina a utilizar o SASS, uma extensão do CSS que permite escrever estilos mais eficientes e reutilizáveis, utilizando variáveis, mixins e outras funcionalidades."
+    },
+    {
+        "nome": "Webpack 5 - Fundamentos",
+        "titleId": 11,
+        "autor": "Alura",
+        "duracao": "8 horas",
+        "descricao": "Aprenda a utilizar o Webpack 5, uma ferramenta de build de front-end que permite criar bundles otimizados e mais eficientes para suas aplicações web."
+    },
+    {
+        "nome": "jQuery - Curso Completo",
+        "titleId": 12,
+        "autor": "TreinaWeb",
+        "duracao": "12 horas",
+        "descricao": "Este curso ensina a utilizar o jQuery, uma das bibliotecas de JavaScript mais populares, para criar animações, interações e manipulação do DOM de forma mais eficiente e com menos código."
+    },
+    {
+        "nome": "Vue.js - Curso Prático",
+        "titleId": 13,
+        "autor": "Platzi",
+        "duracao": "15 horas",
+        "descricao": "Aprenda a utilizar o Vue.js, um dos frameworks de front-end mais modernos e populares, para criar interfaces de usuário interativas e escaláveis para aplicações web."
     }
 ]

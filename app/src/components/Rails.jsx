@@ -1,15 +1,28 @@
-import Trail from "./Trail";
-
+import ItemTrail from "./ItemTrail";
+import styled from "styled-components";
 export default function Trails({ courses }) {
     return (
         <>
-            { Array.isArray(courses) && courses.map((course, index) =>
-                <Trail
-                    key={ index }
-                    course={ course }
-                />
-            )}
+            <h1>Front End</h1>
+            <Wrapper>
+                { Array.isArray(courses) && courses.map((course, index) =>
+                    <ItemTrail
+                        key={ index }
+                        course={ course }
+                    />
+                )}
+            </Wrapper>
         </>
     );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+  overflow-x: scroll; /* Adiciona scroll horizontal */
+  overflow-y: hidden; /* Esconde o scroll vertical */
+`
 

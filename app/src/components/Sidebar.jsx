@@ -1,7 +1,39 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import ExemploDeThumb from "../../../images/Exemplo2.svg"
+import { Link } from "react-router-dom";
+import ExemploDeThumb from "../images/Exemplo2.svg"
 import styled from "styled-components";
+
+export default function SidebarVideo({ selectedCourse }) {
+
+  return (
+    <VideoMenu>
+        <Link to={`/`}>
+            <FaTimes
+                size={"30px"}
+                className="FaTimes"
+            />
+        </Link>
+
+        <InfoOf>
+
+            <InfoOfTitle>{ selectedCourse.nome }</InfoOfTitle>
+
+            <InfoOfImages
+                src={ExemploDeThumb}
+                alt="Thumb"
+                width="350px"
+            />
+
+            <p>{ selectedCourse.autor } - { selectedCourse.duracao }</p>
+            <p>{ selectedCourse.descricao }</p>
+
+            <ButtonOfVideoPanel className="buttonOfVideoPanel"> <a href="`/play/1">ASSISTIR</a> </ButtonOfVideoPanel>
+            <ButtonOfVideoPanel className="buttonOfVideoPanel">AULAS</ButtonOfVideoPanel>
+        </InfoOf>
+    </VideoMenu>
+  );
+};
 
 const VideoMenu = styled.div`
   background-color: #940F13;
@@ -100,30 +132,3 @@ border: 4px solid white;
     }
   }
 `
-
-const ButtonTagA = styled.a`
-text-decoration: none;
-  color: white;
-`
-const SidebarVideo = ({ active }) => {
-  const closeSidebar = () => {
-    active(false);
-  };
-  return (
-    <VideoMenu sideBarVideo={active}>
-      <FaTimes size={"30px"} onClick={closeSidebar} className="FaTimes" />
-      <InfoOf >
-      <InfoOfTitle>Página de teste de Funcionalidade</InfoOfTitle>
-      <InfoOfImages
-        src={ExemploDeThumb}
-        alt="Thumb"
-        width="350px"
-      />
-      <ButtonOfVideoPanel className="buttonOfVideoPanel"> <ButtonTagA href="`/play/1">ASSISTIR</ButtonTagA> </ButtonOfVideoPanel>
-      <ButtonOfVideoPanel className="buttonOfVideoPanel"><ButtonTagA>AULAS</ButtonTagA></ButtonOfVideoPanel>
-      </InfoOf>
-    </VideoMenu>
-  );
-};
-
-export default SidebarVideo;

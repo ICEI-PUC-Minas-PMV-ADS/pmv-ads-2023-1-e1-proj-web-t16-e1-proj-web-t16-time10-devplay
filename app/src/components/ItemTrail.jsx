@@ -12,8 +12,9 @@ export default function ItemTrail({ course }) {
 }
 
 const Wrapper = styled.div`
-  min-width: 150px;
-  height: 250px;
+  min-width: 250px;
+  width: 250px;
+  height: 550px;
   border: 1px solid red;
   cursor: pointer;
   background-color: #1B4669;

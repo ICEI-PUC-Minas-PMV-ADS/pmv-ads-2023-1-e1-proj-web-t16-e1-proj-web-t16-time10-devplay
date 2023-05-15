@@ -25,8 +25,8 @@ export default function SidebarVideo({ selectedCourse }) {
                 width="350px"
             />
 
-            <p>{ selectedCourse.autor } - { selectedCourse.duracao }</p>
-            <p>{ selectedCourse.descricao }</p>
+            <Description>{ selectedCourse.autor } - { selectedCourse.duracao }</Description>
+            <Description>{ selectedCourse.descricao }</Description>
 
             <ButtonOfVideoPanel className="buttonOfVideoPanel"> <a href="`/play/1">ASSISTIR</a> </ButtonOfVideoPanel>
             <ButtonOfVideoPanel className="buttonOfVideoPanel">AULAS</ButtonOfVideoPanel>
@@ -45,7 +45,7 @@ const VideoMenu = styled.div`
   width: 500px;
   border-left: 1px solid #ddd;
   animation-name: painelOpen;
-  animation-duration: 7s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards; 
 
   @keyframes painelOpen {
@@ -86,6 +86,9 @@ border-radius: 10px;
   box-shadow: #E0DC16 5px 5px 10px 0px;
 `
 
+const Description = styled.div`
+    padding: 40px;
+`
 const ButtonOfVideoPanel = styled.button`
 border: 4px solid white;
   background-color: #940F13;
@@ -96,12 +99,13 @@ border: 4px solid white;
   border-radius: 7.50px;
   box-shadow: 0 0 5px #FFF, 0 0 15px #FFF, 0 0 30px #FFF;
 
-  &hover: 
-  animation-name: buttonOfPainel;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  color: white;
+  &hover: {
+    animation-name: buttonOfPainel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: white;
+  }
 
   @keyframes buttonOfPainel {
     0% {
@@ -109,21 +113,6 @@ border: 4px solid white;
       border-color: #4FABE0 #0B92E0 #4FABE0 #3A7EA6;
       box-shadow: 0 0 5px #4FABE0, 0 0 15px #4FABE0, 0 0 30px #4FABE0;  
       border: 4px transparent #4FABE0 #0B92E0 #4FABE0 #3A7EA6;
-    }
-    25% {
-      border-color:  #0B92E0 #4FABE0 #3A7EA6 #4FABE0;
-      box-shadow: 0 0 5px #0B92E0, 0 0 15px #0B92E0, 0 0 30px #0B92E0;  
-      border: 4px transparent #0B92E0 #4FABE0 #3A7EA6 #4FABE0;
-    }
-    50% {
-      border-color:   #4FABE0 #3A7EA6 #4FABE0 #0B92E0;
-      box-shadow: 0 0 5px #4FABE0, 0 0 15px #4FABE0, 0 0 30px #4FABE0;  
-      border: 4px transparent #4FABE0 #3A7EA6 #4FABE0 #0B92E0;
-    }
-    75% {
-      border-color:   #3A7EA6 #4FABE0 #0B92E0 #4FABE0;
-      box-shadow: 0 0 5px #3A7EA6, 0 0 15px #3A7EA6, 0 0 30px #3A7EA6;  
-      border: 4px transparent   #3A7EA6 #4FABE0 #0B92E0 #4FABE0;
     }
     100% {
       border-color: #4FABE0 #0B92E0 #4FABE0 #3A7EA6;

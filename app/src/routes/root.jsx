@@ -7,18 +7,23 @@ import courses from "../data/courses.json";
 import styled from "styled-components";
 import SidebarVideo from "../components/Sidebar";
 import { useLoaderData } from "react-router-dom";
+import {useState} from "react";
 
 export async function loader({ params }) {
     const selectedCourse = courses.find(course => course.titleId == params.titileId);
     return { selectedCourse }
 }
 export default function Root() {
+    const [menuVisibility, setMenuVisibility ] = useState(false);
     const { selectedCourse } = useLoaderData() || {};
 
     return (
         <>
             <TopBar>
-                <FaBars size= "20px" />
+                <FaBars
+                    size= "20px"
+                    onClick={ ()=> setMenuVisibility(!menuVisibility) }
+                />
 
                 <img
                     src={ LogoDevPlay }
@@ -27,15 +32,16 @@ export default function Root() {
                 />
 
                 <FiUser size= "20px" />
-
-                <MainMenu />
             </TopBar>
 
             <main>
+                <MainMenu menuVisibility={ menuVisibility } />
                 <Trails courses={ courses } />
             </main>
 
-            { selectedCourse && <SidebarVideo selectedCourse={ selectedCourse } /> }
+            { selectedCourse &&
+                <SidebarVideo selectedCourse={ selectedCourse } />
+            }
         </>
     );
 }

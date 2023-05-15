@@ -19,9 +19,8 @@ export default function Trails({ courses }) {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 100%;
-  height: 250px;
+  height: 550px;
   overflow-x: scroll; /* Adiciona scroll horizontal */
   overflow-y: hidden; /* Esconde o scroll vertical */
 `

@@ -10,7 +10,7 @@ import { useLoaderData } from "react-router-dom";
 import {useState} from "react";
 
 export async function loader({ params }) {
-    const selectedCourse = courses.find(course => course.titleId == params.titileId);
+    const selectedCourse = courses.find(course => course.titleId === parseInt(params.titileId));
     return { selectedCourse }
 }
 export default function Root() {

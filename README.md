@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b4709817-278b-4034-9429-e39922a4f382/deploy-status)](https://app.netlify.com/sites/dev-play/deploys)
 # DEVPLAY
 
 `CURSO`

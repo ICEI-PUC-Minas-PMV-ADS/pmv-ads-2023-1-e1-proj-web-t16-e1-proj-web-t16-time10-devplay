@@ -18,6 +18,19 @@ Nessa seção, o usuário poderá criar sua conta e confirmar o seu cadastro via
 * cadastro.css
 * createaccount.js
 
+## 3.0 Barra lateral estática. (RF-03.0)
+
+![RF 03.0 ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/Interface/MENU%20LATERAL.png)
+
+### 3.0.1 Requisitos atendidos:
+* RF-03.1 Em Todas as Página exibir uma barra lateral estática navegável por click para acessar as páginas Busca, Favoritos, Continuar Assistindo e Perfil.
+
+### 3.0.2 Artefatos da funcionalidade:
+
+* Rails.jsx
+* Courses.json
+* Root.jsx
+
 ## 3.1 Na Trilhos navegáveis com itens. (RF-03.1)
 
 ![RF 03.1 ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t16-e1-proj-web-t16-time10-devplay/blob/main/docs/img/Interface/Trilho%20clicavel.png)

@@ -8,6 +8,11 @@ import styled from "styled-components";
 import SidebarVideo from "../components/Sidebar";
 import { useLoaderData } from "react-router-dom";
 import {useState} from "react";
+import Banner from "../components/Banner/banner.js";
+import Container from "../components/Container/container";
+import Roadmaps from "../components/Roadmaps/roadmaps";
+import SeparadorSecao from "../components/SeparadorSecao/separador";
+import Cadastro from "../components/CadastroFormulario/cadastro";
 
 export async function loader({ params }) {
     const selectedCourse = courses.find(course => course.titleId === parseInt(params.titileId));
@@ -42,6 +47,26 @@ export default function Root() {
             { selectedCourse &&
                 <SidebarVideo selectedCourse={ selectedCourse } />
             }
+
+            <banner>
+                <Banner />
+            </banner>
+
+            <container>
+                <Container />
+            </container>
+            
+            <roadmaps>
+                <Roadmaps />
+            </roadmaps>
+
+            <separadorsecao>
+                <SeparadorSecao />
+            </separadorsecao>
+            
+            <cadastro>
+                <Cadastro />
+            </cadastro>
         </>
     );
 }

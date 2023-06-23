@@ -8,6 +8,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Root, { loader as rootLoader } from "./routes/root";
 import ErrorPage from "./error-page";
+import MainPage from './components/MainPage';
 
 const router = createBrowserRouter([
     {
@@ -20,7 +21,13 @@ const router = createBrowserRouter([
         element: <Root />,
         errorElement: <ErrorPage />,
         loader: rootLoader,
-    }
+    },
+    {
+      path: "/mainpage",
+      element: <MainPage />,
+      errorElement: <ErrorPage />,
+      loader: rootLoader,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

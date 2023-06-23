@@ -1,14 +1,16 @@
+import React from "react";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
-export default function ItemTrail({ course }) {
+import { Link } from "react-router-dom";
 
-    return (
-        <Wrapper>
-            <Link to={`/title/${ course.titleId }`}>
-                <Label>{ course.nome }</Label>
-            </Link>
-        </Wrapper>
-    )
+export default function ItemTrail({ course }) {
+  return (
+    <Wrapper key={course.type}>
+      <Link to={`/title/${course.titleId}`}>
+        <Label>{course.nome}</Label>
+        <Label>{course.duracao}</Label>
+      </Link>
+    </Wrapper>
+  );
 }
 
 const Wrapper = styled.div`
@@ -17,11 +19,11 @@ const Wrapper = styled.div`
   height: 550px;
   border: 1px solid red;
   cursor: pointer;
-  background-color: #1B4669;
-`
+  background-color: #1b4669;
+`;
 
 const Label = styled.p`
-  color: white;
+  color: black;
   width: 100%;
   text-align: center;
-`
+`;

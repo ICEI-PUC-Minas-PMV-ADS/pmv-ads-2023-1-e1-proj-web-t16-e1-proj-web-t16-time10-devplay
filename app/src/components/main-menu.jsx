@@ -1,10 +1,10 @@
-import { AiOutlineUser, AiOutlineSearch, AiFillStar, AiOutlinePlaySquare} from 'react-icons/ai';
+import { AiOutlineUser, AiOutlineSearch, AiFillStar, AiOutlinePlaySquare } from 'react-icons/ai';
 import styled from "styled-components";
 
 export default function MainMenu({ menuVisibility }) {
   return (
     <>
-      <Wrapper className={ menuVisibility ? "" : "activated" }>
+      <Wrapper className={menuVisibility ? "" : "activated"}>
         <List>
           <Item>
             <Anchor href="root"><AiOutlineUser /><span>Perfil</span></Anchor>
@@ -25,7 +25,7 @@ export default function MainMenu({ menuVisibility }) {
 }
 
 const Wrapper = styled.div`
-  background-color: #E0DC16;
+  background-color: #01002f;
   width: 200px;
   height: 100vh;
   padding: 20px;
@@ -38,7 +38,7 @@ const Wrapper = styled.div`
   }
 `
 
-const List = styled.ul `
+const List = styled.ul`
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -49,10 +49,10 @@ const Item = styled.li`
 `
 
 const Anchor = styled.a`
-  color: #1696E0;
+  color: white;
   text-decoration: none;
   
   :hover {
-    color: #E10109;
+    text-shadow: rgba(255,255,255,2) 0px 0px 29px;
   }
 `

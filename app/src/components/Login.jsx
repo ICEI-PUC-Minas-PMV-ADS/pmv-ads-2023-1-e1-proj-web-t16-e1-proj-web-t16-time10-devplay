@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import LogoDevPlay from "../images/DevPlayLogo.svg"
-
+import programming from "../images/programming.png"
+import backend from "../images/backend.png"
+import GameConsole from "../images/game-console.png"
+import scrum from "../images/scrum.png"
+import mobile from "../images/smartphone.png"
+import ux from "../images/ux.png"
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -37,7 +42,7 @@ const LoginForm = ({ onSwitchForm }) => {
   return (
     <LoginStyled>
       <FormLogin onSubmit={handleSubmit}>
-        
+
         <HLogin>Login</HLogin>
         <div>
           <LabelInfos>Email</LabelInfos>
@@ -68,20 +73,21 @@ const LoginForm = ({ onSwitchForm }) => {
         </ALternateLogin>
       </FormLogin>
       <LateralInfosLogin>
-      <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
-      <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
-      <DivListLateral>
-      <ul>
-        <li>Front-end</li>
-        <li>Back-end</li>
-        <li>Mobile</li>
-      </ul>
-      <ul>
-        <li>Scrum</li>
-        <li>Game Develop</li>
-        <li>UX </li>
-      </ul>
-      </DivListLateral>
+        <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
+        <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
+        <DivListLateral>
+          <ul>
+            <LILateral><img src={programming} alt='erro' width={"35px"} />Front-end</LILateral>
+            <LILateral><img src={backend} alt='erro' width={"35px"} />Back-end</LILateral>
+            <LILateral><img src={mobile} alt='erro' width={"35px"} />Mobile</LILateral>
+          </ul>
+          <ul>
+            <LILateral><img src={scrum} alt='erro' width={"35px"} />Scrum</LILateral>
+            <LILateral><img src={GameConsole} alt='erro' width={"35px"} />Game Develop</LILateral>
+            <LILateral><img src={ux} alt='erro' width={"35px"} />UX</LILateral>
+          </ul>
+        </DivListLateral>
+        <h1>Let`s code together</h1>
       </LateralInfosLogin>
     </LoginStyled>
   );
@@ -92,10 +98,20 @@ position: absolute;
 top: -8%;
 `
 
+const LILateral = styled.li`
+display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    `
+
 const DivListLateral = styled.div`
 display: flex;
-justify-content: space-around;
+    justify-content: space-between;
+    -webkit-box-align: center;
     align-items: center;
+    width: 400px;
+    height: 20vh;
 `
 
 const HLateral = styled.h2`
@@ -120,7 +136,7 @@ display: flex;
 position: fixed;
 top: 18%;
 justify-content: center;
-left: 17%;
+left: 18%;
 // transform: translate(-50%, -50%);
 flex-direction: column;
 align-items: center;
@@ -237,57 +253,63 @@ const RegisterForm = ({ onSwitchForm }) => {
   const isFormValid = email !== '' && password !== '';
 
   return (
-    <RegisterStyled>
-      <FormRegister onSubmit={handleSubmit}>
-        <HLogin>Cadastro</HLogin>
-        <div>
-          <LabelInfosRegister>Nome</LabelInfosRegister>
-          <InputRegisterInfo type="text" value={name} onChange={handleNameChange} required />
-        </div>
-        <div>
-          <LabelInfosRegister>Email</LabelInfosRegister>
-          <InputRegisterInfo type="email" value={email} onChange={handleEmailChange} required />
-        </div>
-        <div>
-          <LabelInfosRegister>Senha</LabelInfosRegister>
-          <InputRegisterInfo
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-            required
-          />
-        </div>
-        <ButtonRegister type="submit" disabled={!isFormValid}>
-          Cadastrar
-        </ButtonRegister>
-        <ALternateRegiter>
-          Já tem uma conta?{' '}
-          <ButtonAlternateRegister type="button" onClick={onSwitchForm}>
-            Fazer login
-          </ButtonAlternateRegister>
-        </ALternateRegiter>
-      </FormRegister>
+    <RegisterDivMain>
+      <RegisterStyled>
+        <FormRegister onSubmit={handleSubmit}>
+          <HLogin>Cadastro</HLogin>
+          <div>
+            <LabelInfosRegister>Nome</LabelInfosRegister>
+            <InputRegisterInfo type="text" value={name} onChange={handleNameChange} required />
+          </div>
+          <div>
+            <LabelInfosRegister>Email</LabelInfosRegister>
+            <InputRegisterInfo type="email" value={email} onChange={handleEmailChange} required />
+          </div>
+          <div>
+            <LabelInfosRegister>Senha</LabelInfosRegister>
+            <InputRegisterInfo
+              type="password"
+              value={password}
+              onChange={handlePasswordChange}
+              required
+            />
+          </div>
+          <ButtonRegister type="submit" disabled={!isFormValid}>
+            Cadastrar
+          </ButtonRegister>
+          <ALternateRegiter>
+            Já tem uma conta?{' '}
+            <ButtonAlternateRegister type="button" onClick={onSwitchForm}>
+              Fazer login
+            </ButtonAlternateRegister>
+          </ALternateRegiter>
+        </FormRegister>
+      </RegisterStyled>
       <LateralInfosRegister>
-      <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
-      <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
-      <div>
-
-      <ul>
-        <li>Front-end</li>
-        <li>Back-end</li>
-        <li>Mobile</li>
-      </ul>
-      <ul>
-
-        <li>Scrum</li>
-        <li>Game Develop</li>
-        <li>UX </li>
-      </ul>
-      </div>
+        <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
+        <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
+        <DivListLateral>
+          <ul>
+            <LILateral><img src={programming} alt='erro' width={"35px"} />Front-end</LILateral>
+            <LILateral><img src={backend} alt='erro' width={"35px"} />Back-end</LILateral>
+            <LILateral><img src={mobile} alt='erro' width={"35px"} />Mobile</LILateral>
+          </ul>
+          <ul>
+            <LILateral><img src={scrum} alt='erro' width={"35px"} />Scrum</LILateral>
+            <LILateral><img src={GameConsole} alt='erro' width={"35px"} />Game Develop</LILateral>
+            <LILateral><img src={ux} alt='erro' width={"35px"} />UX</LILateral>
+          </ul>
+        </DivListLateral>
+          <h1>Let`s code together</h1>
       </LateralInfosRegister>
-    </RegisterStyled>
+    </RegisterDivMain>
   );
 };
+
+const RegisterDivMain = styled.div`
+display:flex;
+`
+
 
 const LateralInfosRegister = styled.div`
 background-color: white;
@@ -327,7 +349,7 @@ display: flex;
 position: fixed;
 top: 18%;
 justify-content: center;
-left: 17%;
+left: 18%;
 // transform: translate(-50%, -50%);
 flex-direction: column;
 align-items: center;

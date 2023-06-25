@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/title/:titileId",
-        element: <Root />,
+        element: <MainPage />,
         errorElement: <ErrorPage />,
         loader: rootLoader,
     },

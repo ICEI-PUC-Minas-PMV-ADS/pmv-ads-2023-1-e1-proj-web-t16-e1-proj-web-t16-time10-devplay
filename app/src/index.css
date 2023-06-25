@@ -77,6 +77,12 @@ code {
   color: white;
 }
 
+.loadingTransition {
+  transition: opacity 1s ease-in-out;
+  transition-delay: 4s;
+
+}
+
 @keyframes buttonOfPainel {
   0% {
     /* border: 2px; */

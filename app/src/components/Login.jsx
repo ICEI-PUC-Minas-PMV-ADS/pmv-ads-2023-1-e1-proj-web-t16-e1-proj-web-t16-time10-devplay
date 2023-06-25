@@ -1,102 +1,411 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 import LogoDevPlay from "../images/DevPlayLogo.svg"
-import styled from "styled-components";
-import { Link } from 'react-router-dom';
 
-function Login() {
-  const [emailVerifie, setEmailVerifie] = useState()
-  const [passwordVerifie, setPasswordVerifie] = useState()
-  const [buttonON, setbuttonON] = useState(false)
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
-  const verifieLoginInfos = () => {
-    if (emailVerifie !== "" && passwordVerifie !== "") {
-      setbuttonON(false)
+const CardContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+`;
+
+const LoginForm = ({ onSwitchForm }) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Verificar se o email e a senha estão corretos
+    const storedEmail = localStorage.getItem('email');
+    const storedPassword = localStorage.getItem('password');
+
+    if (email === storedEmail && password === storedPassword) {
+      alert('Login realizado com sucesso!');
+      navigate('/mainpage');
     } else {
-      setbuttonON(true)
+      alert('Email ou senha incorretos!');
     }
-  }
+  };
 
-  const emailVerifieChanges = (event) => {
-    setEmailVerifie(event.target.value);
-    verifieLoginInfos();
-  }
-  const passwordVerifieChanges = (event) => {
-    setPasswordVerifie(event.target.value);
-    verifieLoginInfos();
-  }
-  
-  // const {loginVerification} = this.state;
   return (
     <LoginStyled>
-          <img src={LogoDevPlay} alt="logo" width= "400px" />
-
-      <LabelInfos>Username</LabelInfos>
-      <InputLoginInfo type='text'placeholder='Username' value= {emailVerifie} onChange={emailVerifieChanges}/>
-
-      <LabelInfos>Password</LabelInfos>
-      <InputLoginInfo type='password' placeholder='Password' value={passwordVerifie} onChange={passwordVerifieChanges}/>
-      <p>Esqueceu a senha?</p>
-      <ButtonsLogin>
-
-      <ButtonLogin type='get' disabled={buttonON}>
-        <Link to="/mainpage" >
-        Login
-        </Link>
+      <FormLogin onSubmit={handleSubmit}>
+        
+        <HLogin>Login</HLogin>
+        <div>
+          <LabelInfos>Email</LabelInfos>
+          <InputLoginInfo
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <LabelInfos>Senha</LabelInfos>
+          <InputLoginInfo
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+        <ButtonLogin type='submit'>
+          Login
         </ButtonLogin>
-      <ButtonLogin type='get'>Cadastre-se</ButtonLogin>
-      </ButtonsLogin>
+        <ALternateLogin>
+          Não tem uma conta?{' '}
+          <ButtonAlternate type="button" onClick={onSwitchForm}>
+            Cadastrar
+          </ButtonAlternate>
+        </ALternateLogin>
+      </FormLogin>
+      <LateralInfosLogin>
+      <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
+      <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
+      <DivListLateral>
+      <ul>
+        <li>Front-end</li>
+        <li>Back-end</li>
+        <li>Mobile</li>
+      </ul>
+      <ul>
+        <li>Scrum</li>
+        <li>Game Develop</li>
+        <li>UX </li>
+      </ul>
+      </DivListLateral>
+      </LateralInfosLogin>
     </LoginStyled>
-  )
-}
+  );
+};
 
-export default Login
+const LogoIMg = styled.img`
+position: absolute;
+top: -8%;
+`
 
-const LabelInfos = styled.label`
-justify-content: space-between;
+const DivListLateral = styled.div`
 display: flex;
-width: 300px
-`
-
-const InputLoginInfo = styled.input `
-border-radius: 10px;
-width: 300px;
-height: 25px;
-background-color: lightgray;
-border: 1px solid #1696E0;
-`
-const ButtonLogin = styled.button`
-background-color: lightgray;
-color: black;
-border-radius: 20px;
-width: 100px;
-height: 40px;
-`
-
-const ButtonsLogin = styled.div`
-display: flex;
-flex-direction: row;
 justify-content: space-around;
-width: 300px;
-
+    align-items: center;
 `
 
-const LoginStyled = styled.div`
-background-color: #076094;
-color: white;
+const HLateral = styled.h2`
+text-align: center;
+`
+
+const HLogin = styled.h2`
+color: black;
+`
+
+const LateralInfosLogin = styled.div`
+background-color: white;
+height: 60vh;
+color: black;
+width: 30%;
 border: 2px solid black;
-border-radius: 20px;
+// border-radius: 20px;
 position: absolute;
 aling-items: center;
 opacity: 1;
 display: flex;
 position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+top: 18%;
+justify-content: center;
+left: 17%;
+// transform: translate(-50%, -50%);
 flex-direction: column;
 align-items: center;
--webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// -webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
 padding: 20px;
 `
+
+const LoginStyled = styled.div`
+background-color: #076094;
+height: 60vh;
+color: white;
+width: 30%;
+border: 2px solid black;
+// border-radius: 20px;
+position: absolute;
+aling-items: center;
+opacity: 1;
+display: flex;
+position: fixed;
+top: 18%;
+justify-content: center;
+left: 50%;
+// transform: translate(-50%, -50%);
+flex-direction: column;
+align-items: center;
+// -webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+padding: 20px;
+`
+
+const ALternateLogin = styled.p`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+`;
+
+const LabelInfos = styled.label`
+  justify-content: space-between;
+  display: flex;
+  width: 300px;
+  color: black;
+`;
+
+const FormLogin = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const InputLoginInfo = styled.input`
+  border-radius: 10px;
+  width: 300px;
+  height: 25px;
+  background-color: lightgray;
+  border: 1px solid #1696e0;
+`;
+
+const ButtonLogin = styled.button`
+  background-color: lightgray;
+  color: black;
+  border-radius: 20px;
+  width: 100px;
+  height: 33px;
+  font-size: 15px;
+`;
+
+const ButtonAlternate = styled.button`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgray;
+  color: black;
+  border-radius: 20px;
+  width: 100px;
+  height: 33px;
+  font-size: 15px;
+  align-items: center;
+`;
+
+const RegisterForm = ({ onSwitchForm }) => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Verificar se o email e a senha possuem os caracteres necessários
+    if (email.length >= 5 && password.length >= 6) {
+      localStorage.setItem('name', name); // Salvar o nome no localStorage
+      localStorage.setItem('email', email);
+      localStorage.setItem('password', password);
+      alert('Cadastro realizado com sucesso!');
+    } else {
+      alert('Email ou senha inválidos!');
+    }
+  };
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const isFormValid = email !== '' && password !== '';
+
+  return (
+    <RegisterStyled>
+      <FormRegister onSubmit={handleSubmit}>
+        <HLogin>Cadastro</HLogin>
+        <div>
+          <LabelInfosRegister>Nome</LabelInfosRegister>
+          <InputRegisterInfo type="text" value={name} onChange={handleNameChange} required />
+        </div>
+        <div>
+          <LabelInfosRegister>Email</LabelInfosRegister>
+          <InputRegisterInfo type="email" value={email} onChange={handleEmailChange} required />
+        </div>
+        <div>
+          <LabelInfosRegister>Senha</LabelInfosRegister>
+          <InputRegisterInfo
+            type="password"
+            value={password}
+            onChange={handlePasswordChange}
+            required
+          />
+        </div>
+        <ButtonRegister type="submit" disabled={!isFormValid}>
+          Cadastrar
+        </ButtonRegister>
+        <ALternateRegiter>
+          Já tem uma conta?{' '}
+          <ButtonAlternateRegister type="button" onClick={onSwitchForm}>
+            Fazer login
+          </ButtonAlternateRegister>
+        </ALternateRegiter>
+      </FormRegister>
+      <LateralInfosRegister>
+      <LogoIMg src={LogoDevPlay} alt="logo" width="400px" />
+      <HLateral>Acesse agora e descubra uma infinidade de cursos para dar a ignição na sua carreira</HLateral>
+      <div>
+
+      <ul>
+        <li>Front-end</li>
+        <li>Back-end</li>
+        <li>Mobile</li>
+      </ul>
+      <ul>
+
+        <li>Scrum</li>
+        <li>Game Develop</li>
+        <li>UX </li>
+      </ul>
+      </div>
+      </LateralInfosRegister>
+    </RegisterStyled>
+  );
+};
+
+const LateralInfosRegister = styled.div`
+background-color: white;
+height: 60vh;
+color: black;
+width: 30%;
+border: 2px solid black;
+// border-radius: 20px;
+position: absolute;
+aling-items: center;
+opacity: 1;
+display: flex;
+position: fixed;
+top: 18%;
+justify-content: center;
+left: 50%;
+// transform: translate(-50%, -50%);
+flex-direction: column;
+align-items: center;
+// -webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+padding: 20px;
+`
+
+const RegisterStyled = styled.div`
+background-color: #076094;
+height: 60vh;
+color: white;
+width: 30%;
+border: 2px solid black;
+// border-radius: 20px;
+position: absolute;
+aling-items: center;
+opacity: 1;
+display: flex;
+position: fixed;
+top: 18%;
+justify-content: center;
+left: 17%;
+// transform: translate(-50%, -50%);
+flex-direction: column;
+align-items: center;
+// -webkit-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// -moz-box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+// box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.37);
+padding: 20px;
+`
+
+const ALternateRegiter = styled.p`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+`;
+
+const LabelInfosRegister = styled.label`
+  justify-content: space-between;
+  display: flex;
+  width: 300px;
+  color: black;
+`;
+
+const FormRegister = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const InputRegisterInfo = styled.input`
+  border-radius: 10px;
+  width: 300px;
+  height: 25px;
+  background-color: lightgray;
+  border: 1px solid #1696e0;
+`;
+
+const ButtonRegister = styled.button`
+background-color: lightgray;
+color: black;
+border-radius: 20px;
+width: 100px;
+height: 33px;
+font-size: 15px;
+margin-top: 5px;
+`;
+
+const ButtonAlternateRegister = styled.button`
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: lightgray;
+color: black;
+border-radius: 20px;
+width: 100px;
+height: 33px;
+font-size: 15px;
+align-items: center;
+`;
+
+const LoginPage = () => {
+  const [isLogin, setIsLogin] = useState(true);
+
+  const handleSwitchForm = () => {
+    setIsLogin(!isLogin);
+  };
+
+  return (
+    <Container>
+      <CardContainer>
+        {isLogin ? (
+          <LoginForm onSwitchForm={handleSwitchForm} />
+        ) : (
+          <RegisterForm onSwitchForm={handleSwitchForm} />
+        )}
+      </CardContainer>
+    </Container>
+  );
+};
+
+export default LoginPage;
